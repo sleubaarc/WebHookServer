@@ -24,7 +24,6 @@ Il reçoit des webhooks, stocke les données en base de données MySQL et affich
 - Docker & Docker Compose (optionnel)
 
 ### **Cloner le projet**
-```bash
 git clone https://github.com/votre-utilisateur/webhook-server.git
 cd webhook-server
 
