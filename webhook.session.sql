@@ -1,1 +1,0 @@
-DELETE * FROM webhook_events;
