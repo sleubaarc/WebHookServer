@@ -28,14 +28,14 @@ git clone https://github.com/votre-utilisateur/webhook-server.git
 cd webhook-server
 
 ### **Création de l'environnement virtuel**
-python -m venv venv
-source venv/bin/activate  # Sur Windows : venv\Scripts\activate
-pip install -r requirements.txt
+- python -m venv venv
+- venv\Scripts\activate
+- pip install -r requirements.txt
 
 ### **Configurer les variables d'environnement**
-DB_USER=root
-DB_PASSWORD=admin
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=webhook
-SECRET_KEY=AEeyJhbGciOiJIUzUxMiIsImlzcyI6
+- DB_USER=root
+- DB_PASSWORD=à choix
+- DB_HOST=localhost
+- DB_PORT=3306
+- DB_NAME=webhook
+- SECRET_KEY=AEeyJhbGciOiJIUzUxMiIsImlzcyI6
