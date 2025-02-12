@@ -6,6 +6,8 @@ services:
     container_name: flask_app
     environment:
       - FLASK_ENV=production
+    expose:
+      - "5000"  # Exposer le port pour NGINX
     depends_on:
       - db
     networks:

@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from app import db
+from app.routes import db
 from app.models import WebhookEvent
 import hmac
 import hashlib
