@@ -27,12 +27,12 @@ Il reçoit des webhooks, stocke les données en base de données MySQL et affich
 git clone https://github.com/votre-utilisateur/webhook-server.git
 cd webhook-server
 
-### ** Création de l'environnement virtuel **
+### **Création de l'environnement virtuel**
 python -m venv venv
 source venv/bin/activate  # Sur Windows : venv\Scripts\activate
 pip install -r requirements.txt
 
-### *** Configurer les variables d'environnement ***
+### **Configurer les variables d'environnement**
 DB_USER=root
 DB_PASSWORD=admin
 DB_HOST=localhost
