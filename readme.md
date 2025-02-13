@@ -25,7 +25,10 @@ Il reçoit des webhooks, stocke les données en base de données MySQL et affich
 
 ### **Cloner le projet**
 git clone https://github.com/votre-utilisateur/webhook-server.git
-cd webhook-server
+
+### **Création de la DB**
+un script de création de DB "createdatabase.py est à disposition à la source du projet afin de faciliter la création.
+il est important de posséder MySql / MariaDB avant d'éxécuter le script
 
 ### **Création de l'environnement virtuel**
 - python -m venv venv
