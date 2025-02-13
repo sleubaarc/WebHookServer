@@ -27,15 +27,18 @@ Il reçoit des webhooks, stocke les données en base de données MySQL et affich
 git clone https://github.com/sleubaarc/WebHookServer.git
 
 ### **Création de la DB**
-un script de création de DB "createdatabase.py est à disposition à la source du projet afin de faciliter la création.
-il est important de posséder MySql / MariaDB avant d'éxécuter le script
+Il est important de créer une base de données en local afin de démarrer l'application.
+![alt text](image.png)
+
+un script de création de DB "createdatabase.py est à disposition à la source du projet une fois la db créée.
+- python.exe createdatabase.py
 
 ### **Création de l'environnement virtuel**
 - python -m venv venv
 - venv\Scripts\activate
 - pip install -r requirements.txt
 
-### **Configurer les variables d'environnement**
+### **Configurer les variables d'environnement (fichier.env)**
 - DB_USER=root
 - DB_PASSWORD=à choix
 - DB_HOST=localhost
