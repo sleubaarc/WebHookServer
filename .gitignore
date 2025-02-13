@@ -1,5 +1,3 @@
-.env
-
 venv/
 __pycache__/
 *.pyc
@@ -8,7 +6,6 @@ __pycache__/
 *.sql         
 
 
-.env
 *.sqlite3        # Si vous utilisez une DB SQLite temporaire
 *.db
 
