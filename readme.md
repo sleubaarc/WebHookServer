@@ -20,14 +20,19 @@ Il reçoit des webhooks, stocke les données en base de données MySQL et affich
 
 ### **Prérequis**
 - Python 3.x
-- MySQL / MariaDB
+- MySQL / MariaDB, installation possible depuis : https://dev.mysql.com/downloads/mysql/
 - Docker & Docker Compose (optionnel)
 
 ### **Cloner le projet**
 git clone https://github.com/sleubaarc/WebHookServer.git
 
+### **Création de l'environnement virtuel**
+- python -m venv venv
+- venv\Scripts\activate
+- pip install -r requirements.txt
+
 ### **Création de la DB**
-Il est important de créer une base de données en local afin de démarrer l'application.
+Il est important de créer un user et un password avec l'installation de mysql en local avant d'effectuer la configuration en local de la DB.
 ![alt text](image.png)
 
 un script de création de DB "createdatabase.py est à disposition à la source du projet une fois la db créée.
