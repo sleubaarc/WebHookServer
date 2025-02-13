@@ -116,7 +116,7 @@ def view_events():
                         }},
                         y: {{
                             beginAtZero: true,
-                            max: 50  // ✅ Limite fixée à 50
+                            max: 25  // ✅ Limite fixée à 50
                         }}
                     }}
                 }}
